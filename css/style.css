@@ -1,0 +1,184 @@
+html,
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-decoration: line-through;
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  font-size: 2.5em;
+  margin: 10px 0px 0px 0px;
+}
+
+body {
+  background: #273345;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  color:#c7dbf4;
+  margin: 10px 0px;
+  align-self: center;
+  font-family: 'Philosopher', sans-serif;
+  max-width: 1150px;
+}
+
+h2 {
+  margin: 10px 0px 0px 0px;
+  text-decoration: underline;
+  align-self: center;
+}
+
+p {
+  padding: 0px 10px 0px 10px;
+  text-align: center
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  border: 3px double #fff;
+  max-width: 666px;
+  min-width: 230px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+figcaption {
+  padding: 0px 5px 4px 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+strong {
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+  color: #697c95;
+}
+
+a:hover {
+  color: #c7dbf4;
+}
+
+header,
+footer {
+  background: #34465d;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+/*--------------------------------------------------
+---------------------NAVIGATION---------------------
+--------------------------------------------------*/
+
+.sticky + main {
+  padding-top: 60px;
+}
+
+nav ul  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 5px;
+}
+
+.selected,
+a:hover{
+  color: #c7dbf4;
+}
+
+
+
+/*--------------------------------------------------
+---------------------HOME---------------------------
+--------------------------------------------------*/
+
+.link a {
+  background: #34465d;
+  text-align: center;
+  width: 100px;
+  border: solid 2px transparent;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  margin: 5px;
+}
+
+.link a:hover {
+  background: #fff;
+  border: solid 2px #34465d;
+  color: #697c95;
+}
+
+.link {
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#infoot {
+  position: absolute;
+  bottom: 0;
+}
+
+
+/*--------------------------------------------------
+---------------------FANDOMS------------------------
+--------------------------------------------------*/
+
+.fandom-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  border: 3px inset #34465d;
+  width: 90%;
+}
+
+.fandom-image img {
+  width: 100%;
+  height: 30%;
+  background: #fff;
+}
+
+
+
+/*--------------------------------------------------
+---------------------BROWSE-------------------------
+--------------------------------------------------*/
+
+.browse-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.browse-list figure {
+  width: 300px
+}
+.browse-list figure figcaption {
+  padding-left: 10px;
+  text-align: left;;
+}

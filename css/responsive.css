@@ -1,0 +1,33 @@
+@media (min-width: 500px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    
+  } 
+  
+  nav ul {
+    flex-direction: row;
+  }
+  
+  .head-tabs{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+}
+
+
+@media (min-width: 980px) {
+  .fandom-list, 
+  .browse-list {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  figure {
+    width: 25%;
+  }
+  
+}
